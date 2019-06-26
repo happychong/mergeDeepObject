@@ -1,4 +1,6 @@
-# deepMerge
+原本包deepMerge，但是由于一些平台对于包名不区分大小写，所以导致deepMerge与项目中原有引入的deepmerge产生冲突，导致报错，所以新创建mergeDeepObject包以便减少因为包名导致的冲突问题。
+
+# mergeDeepObject
 
 * 深层拷贝，对象类型的属性都会返回新的对象
 * deepMerge可以有任何多个参数，多个参数时根据后面覆盖前面的原则执行
