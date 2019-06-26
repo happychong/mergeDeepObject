@@ -9,11 +9,11 @@
 * 如果原属性类型和目标属性类型不同，那么也会直接后面属性值替换前面的属性值。
 
 ## Install
-`npm install deepMerge --save`
+`npm install mergeDeepObject --save`
 
 ## Usage
 ```
-import deepMerge from 'deepMerge';
+import deepMerge from 'mergeDeepObject';
 
 let obj = {
     a: 1,
