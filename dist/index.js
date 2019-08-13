@@ -105,7 +105,6 @@ function deepCopy(parent, c) {
 }
 
 function mergeDeepObject(...rest) {
-    debugger;
   let resoult = null;
   if (rest.length > 1) {
     resoult = rest[0]
