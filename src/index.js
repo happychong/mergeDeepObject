@@ -22,7 +22,7 @@ function deepCopy(parent, c) {
   return child;
 }
 
-export default function c(...rest) {
+export default function mergeDeepObject(...rest) {
   let resoult = null;
   if (rest.length > 1) {
     resoult = rest[0]
