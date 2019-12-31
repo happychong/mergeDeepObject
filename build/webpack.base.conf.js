@@ -16,6 +16,8 @@ module.exports = {
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
+    // 默认用var 模式： commonjs commonjs2 umd（amd+cmd+commonjs） this , 一般node用commonjs2
+    libraryTarget: 'umd',
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath
       : config.dev.assetsPublicPath
