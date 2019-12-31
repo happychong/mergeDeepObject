@@ -1,6 +1,6 @@
 {
   "name": "mergeDeepObject",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "deepCopy deepMerge",
   "author": "happychong <1173290465@qq.com>",
   "main": "./src/index.js",
