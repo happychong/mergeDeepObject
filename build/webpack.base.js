@@ -23,6 +23,8 @@ module.exports = (env) => {
         entry: path.resolve(__dirname, '../src/index.js'),
         output: {
             filename: 'index.js',
+            // 默认用var 模式： commonjs commonjs2 umd（amd+cmd+commonjs） this , 一般node用commonjs2
+            libraryTarget: 'umd',
             // 出口位置 要用绝对路径
             path: path.resolve(__dirname, '../dist')
         },

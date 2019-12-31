@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "deepCopy deepMerge",
   "author": "happychong <1173290465@qq.com>",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "dev:server": "webpack-dev-server --env.development --config ./build/webpack.base.js",
     "dev": "webpack --env.development --config ./build/webpack.base.js",
