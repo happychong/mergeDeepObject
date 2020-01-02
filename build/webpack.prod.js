@@ -8,9 +8,5 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(),
-        // new CleanWebpackPlugin({
-        //     // 在打包目录清空 默认就是全部清空，所以可以不设置此参数
-        //     cleanOnceBeforeBuildPatterns: ['**/*']
-        // }),
     ]
 }
